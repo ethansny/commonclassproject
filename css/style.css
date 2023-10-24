@@ -1,0 +1,226 @@
+body{
+    font-family: sans-serif;
+}
+
+.stcroix, .bacon{
+    background-color: rgb(255, 167, 167);
+}
+
+.yellowstone, .watson{
+    background-color: aqua;
+}
+
+.grandtetonpark, .bill{
+    background-color: rgb(255, 167, 167);
+}
+
+.linzau{
+    background-color: aqua;
+}
+
+.vancouver{
+    background-color: rgb(255, 167, 167);
+    padding: 10px;
+}
+
+.whistler{
+    background-color: aqua;
+}
+
+.skip {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    z-index: 100;
+    transition: top 1s;
+}
+
+.skip:focus{
+    top: 0px;
+}
+
+
+
+body p{
+    font-size: 150%;
+}
+
+ol{
+    font-size: 150%;
+}
+
+.ingredients{
+    list-style-type: disc;
+}
+
+.steps{
+    list-style-type:decimal;
+}
+
+
+.bacon img, .bacon video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+    background-color: rgb(104, 176, 135);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+p {
+    line-height: 25px;
+    padding-left: 5%;
+}
+
+.intro{
+    text-align: center;
+}
+
+img {
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 20px;
+    border-top-right-radius: 30px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: auto;
+}
+
+ul li {
+    font-size: 130%;
+    background-color: rgb(235, 195, 195);
+    border-radius: 5px;
+    padding:5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px
+}
+
+.bacon video {
+ padding-left: 5%;
+}
+
+.pets img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pets p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+ol {
+    margin-left: 5%;
+}
+
+h3 {
+    padding-left: 3%;
+    font-size: 30px;
+    background-color: rgb(104, 176, 135);
+    margin: 10px;
+    border-radius: 10px;
+    margin-right: 20%;
+}
+
+.yellowstone-photos{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    height: 100%;
+}
+
+.yellowstone-photos img{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    font-size: 150%;
+    text-align: center;
+}
+
+.nav li:hover{
+    background-color:rgb(22, 184, 93);
+}
+
+.nav li:focus{
+    background-color:rgb(22, 184, 93);
+}
+
+.yellowstone-gifs{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 5px;
+}
+
+.linz{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 5px;
+}
+
+.linz img{
+    width: 100%;
+}
+
+.last-p{
+    grid-row: 2/3;
+    grid-column: 1/-1;
+}
+
+.vancouver img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whistler img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grandteton{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    gap: 10px;
+    margin-right: 5px;
+}
+
+.grandteton img{
+    width: 100%;
+}
+
+.activenav{
+    background-color:rgb(22, 184, 93);
+    font-size: 170%;
+}
